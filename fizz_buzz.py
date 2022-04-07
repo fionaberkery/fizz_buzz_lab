@@ -5,3 +5,5 @@ def fizz_buzz(input_number):
         return "fizz"
     elif input_number % 5 == 0:
         return "buzz"
+    else:
+        return str(input_number)

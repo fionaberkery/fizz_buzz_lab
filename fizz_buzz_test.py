@@ -28,3 +28,9 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual("fizz buzz", fizz_buzz(30))
         self.assertEqual("fizz buzz", fizz_buzz(45))
         self.assertEqual("fizz buzz", fizz_buzz(60))
+
+    def test_any_nunmber_not_divisible_by_3_nor_5(self):
+        self.assertEqual("7", fizz_buzz(7))
+        self.assertEqual("11", fizz_buzz(11))
+        self.assertEqual("23", fizz_buzz(23))
+        self.assertEqual("41", fizz_buzz(41))
