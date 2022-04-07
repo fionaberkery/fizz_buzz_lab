@@ -22,3 +22,9 @@ class TestFizzBuzz(unittest.TestCase):
         # self.assertEqual("buzz", fizz_buzz(15))
         self.assertEqual("buzz", fizz_buzz(20))
         self.assertEqual("buzz", fizz_buzz(25))
+
+    def test_any_multiple_of_3_and_5_is_fizzbuzz(self):
+        self.assertEqual("fizz buzz", fizz_buzz(15))
+        self.assertEqual("fizz buzz", fizz_buzz(30))
+        self.assertEqual("fizz buzz", fizz_buzz(45))
+        self.assertEqual("fizz buzz", fizz_buzz(60))
